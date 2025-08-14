@@ -1,0 +1,17 @@
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        .gradient-text {
+            background: linear-gradient(90deg, #4361ee 0%, #4895ef 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .gradient-bg {
+            background: linear-gradient(135deg, #4361ee 0%, #3f37c9 100%);
+        }
+        
+        .blob {
+            filter: blur(60px);
+            opacity: 0.15;
+        }
